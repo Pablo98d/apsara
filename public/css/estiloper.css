@@ -1,0 +1,157 @@
+body{
+    font-family: Arial;
+}
+.estilo-tabla{
+    margin: 10px auto;
+    width: 100%;
+
+}
+table {
+    /* background-color: white; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead{
+    background-color: #000;
+    /* background-color: #3728A2; */
+    /* border-bottom: solid 5px #f1d245; */
+    /* border-bottom: solid 5px #210A68; */
+    color: #fff;
+    font-size: unset;
+    border-bottom: 1px solid gray;
+    
+}
+thead th{
+   color: #fff;
+   padding: 3px;
+   font-weight: bold;
+    
+}
+
+.en-1{
+    width: 7%;
+    padding: 9px;
+    text-align: left;
+}
+.td-1{
+    text-align: right;
+    padding: 3px 9px;
+}
+.en-2{
+    width: 25%;
+    text-align: left;
+    padding: 9px;
+}
+.td-2{
+    text-align: left;
+    padding: 3px 9px;
+}
+.en-3{
+    width: 20%;
+    text-align: left;
+    padding: 9px;
+}
+.td-3{
+    text-align: left;
+    padding: 3px 9px;
+}
+.en-4{
+    width: 20%;
+    text-align: left;
+    padding: 9px;
+}
+.td-4{
+    text-align: left;
+    padding: 3px 9px;
+}
+.en-5{
+    width: 50%;
+    text-align: center;
+    padding: 9px;
+}
+.td-5{
+    text-align: center;
+    padding: 3px 9px;
+}
+tr:nth-child(even){
+    background-color: #000518;
+}
+tr td{
+    padding: 4px;
+}
+tr:hover td{
+    background-color: #00000010;
+    /* background-color: #A6A3D1; */
+    /* color: #000; */
+    /* cursor: pointer; */
+}
+.activo-color{
+    background: rgb(15, 209, 47);
+    border-radius:7px;
+    padding:4px;
+    color:white;
+    margin-left:6px;
+    border:solid 2px black;
+}
+.hr-2{
+    border: 2px solid #210A68;
+}
+.pading-p{
+    padding: 3px;
+}
+.btn-warning-p{
+    background: rgb(255, 176, 5);
+    padding: 2px;
+
+}
+.btn-warning-p i{
+    color: white;
+}
+.btn-danger-p {
+    background: rgb(228, 5, 5);
+    border: transparent;
+    padding: 0px;
+    color: white;
+}
+
+
+.title {
+    font-family: sans-serif;
+    color: #dc2d5e;
+}
+.tabContainer{
+    width: 100%;
+    height: auto;
+}
+.tabContainer .buttonContainer button{
+    width: 25%;
+    height: 100%;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #fff !important;
+    border: none;
+    /* border: solid 1px rgb(110, 110, 110); */
+    background: #3e516c;
+
+}
+.tabContainer .buttonContainer button:hover{
+    background-color: #2d3c50 !important;
+}
+.tabContainer .tabPanel{
+    height: 100%;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 17px;
+    display: none;
+    /* border-bottom: solid 1px rgb(110, 110, 110);
+    border-left: solid 1px rgb(110, 110, 110);
+    border-right: solid 1px rgb(110, 110, 110); */
+    /* border: solid 1px rgb(110, 110, 110); */
+}

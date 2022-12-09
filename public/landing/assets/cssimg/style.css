@@ -1,0 +1,429 @@
+.hover-bg .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: linear-gradient(to right, #B9B7C4, #506CF5);
+    padding: 20% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+
+}
+
+.hover-bg .hover-text>h4 {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    font-size: 35px;
+}
+
+
+.hover-bg:hover .hover-text>h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.hover-bg .hover-text>i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.hover-bg:hover .hover-text>i {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.hover-bg:hover .hover-text {
+    opacity: .7;
+}
+.todo {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.estiloh5
+{
+    font-size: 17px;
+    color: FFFFFF;
+}
+.capaTransparente {
+    position:absolute;
+    top:237px;
+    width:100%;
+    height:100px;
+    background-color:blue;
+    color:white;
+    z-index:1;
+    opacity:.3;
+    line-height: 3.5;
+}
+ 
+ .capaTransparente1 {
+    position:absolute;
+    top:574px;
+    width:100%;
+    height:100px;
+    background-color:blue;
+    color:white;
+    z-index:1;
+    opacity:.3;
+    line-height: 3.5;
+}
+ 
+.capaTransparente:hover {opacity:.7;}
+
+.imag1 {
+    width:100%;
+    height:auto;
+}
+.imag2
+{
+    width: 100%;
+    height: 337px;
+}
+
+.estilo-text {
+  font-size: 25px !important;
+  background-color: #144096;
+  opacity:0.5;
+  text-align: center;
+}
+
+.inicio-items {
+    padding: 0px !important;
+}
+.inicio-item {
+    margin-bottom: 0px;
+    height: 100%;
+    width: auto;
+}
+
+.inicio-item .img-clas {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.inicio-item:hover {
+    background-color: #fff;
+    z-index: 9999;
+}
+
+.img-clas .hover-text {
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    color: #ffffff;
+    background: linear-gradient(to right, #B9B7C4, #506CF5);
+    padding: 20% 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.img-clas .hover-text>h4 {
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    transition: all 0.3s;
+    font-size: 35px;
+}
+
+.img-clas:hover .hover-text>h4 {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.img-clas .hover-text>i {
+    opacity: 0;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    transition: all 0.3s;
+}
+
+.img-clas:hover .hover-text>i {
+    opacity: 1;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+.img-clas:hover .hover-text {
+    opacity: .7;
+}
+
+.inicio-wrapper ul.filter {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 35px;
+    margin-top: 28px;
+    overflow: hidden;
+}
+
+.inicio-wrapper ul.filter li {
+    float: left;
+    text-transform: uppercase;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.inicio-wrapper ul.filter li a {
+    color: #909090;
+}
+
+.inicio-wrapper ul.filter li a:hover,
+.inicio-wrapper ul.filter li a.active {
+    color: #000;
+}
+
+.inicio-wrapper .inicio-items {
+    clear: both;
+}
+
+.inicio-wrapper .portfolio-content {
+    position: relative;
+}
+
+.inicio-wrapper .overlay-content {
+    position: absolute;
+    bottom: 0;
+    padding: 40px 35px;
+}
+
+.inicio-wrapper .overlay-subheading {
+    font-family: 'Droid Serif', serif;
+    text-transform: uppercase;
+    
+    font-size: 18px;
+}
+
+.inicio-wrapper .portfolio-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    -moz-transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    transform: scale(0.5);
+}
+
+.inicio-wrapper .portfolio-content:hover .portfolio-overlay {
+    opacity: 1;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.inicio-wrapper .portfolio-overlay a {
+    color: #fff;
+    font-size: 35px;
+}
+
+.inicio-wrapper .portfolio-overlay a:hover {
+    color: #fff;
+}
+
+.inicio-container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul.filter {
+    padding: 15px 0px;
+}
+
+ul.filter li {
+    display: inline-block;
+    padding: 17px 2px;
+}
+
+ul.filter li a {
+    padding: 15px 25px;
+    border-radius: 0;
+    background-color: #058BCE;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 500;
+}
+
+ul.filter li a:hover {
+    background-color: #48AAF1;
+}
+
+
+/* 8.1  ====================  Portfolio modals ================ */
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0
+}
+
+.portfolio-modal .modal-content {
+    border-radius: 0;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 0;
+    min-height: 100%;
+    padding: 100px 0;
+    text-align: center
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-bottom: 30px;
+    margin-top: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    top: 25px;
+    right: 25px;
+    cursor: pointer
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3
+}
+
+.portfolio-modal .close-modal .lr {
+    height: 75px;
+    width: 1px;
+    margin-left: 35px;
+    background-color: #222;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 1051
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    height: 75px;
+    width: 1px;
+    background-color: #222;
+    transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    z-index: 1052
+}
+
+.portfolio-modal .modal-backdrop {
+    opacity: 0;
+    display: none
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed13
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136
+}
+
+img::selection {
+    background: 0 0
+}
+
+img::-moz-selection {
+    background: 0 0
+}
+@media (min-width: 268px) and (max-width: 1024px) {
+.imag1 {
+    width: 100%;
+    height: auto; 
+}
+.imag2
+{
+    width: 100%;
+    height: auto;
+}
+.capaTransparente {
+
+    position:absolute;
+    top:75%;
+    width:100%;
+    height:100px;
+    background-color:blue;
+    color:white;
+    z-index:1;
+    opacity:.3;
+    line-height: 3.5;
+}
+ 
+ .capaTransparente1 {
+    position:absolute;
+    top:75%;
+    width:100%;
+    height:100px;
+    background-color:blue;
+    color:white;
+    z-index:1;
+    opacity:.3;
+    line-height: 3.5;
+}
+.estilo-text {
+  font-size: 20px !important;
+  background-color: rgba(19, 56, 233, 0.9);
+  opacity:0.5;
+  text-align: center;
+}

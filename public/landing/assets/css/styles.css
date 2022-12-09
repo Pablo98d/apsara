@@ -1,0 +1,418 @@
+@font-face {
+    font-family: 'Kollektif';
+    src: url('../fonts/Kollektif.ttf');
+}
+
+* {
+    font-family: 'Kollektif';
+}
+
+.logo-home {
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    left: 8%;
+    width: 250px;
+}
+
+.btn:focus,
+.btn.focus {
+    box-shadow: unset !important;
+}
+
+.text-end {
+    text-align: end !important;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: unset;
+}
+
+.input-group-text {
+    border: 1px solid white;
+    border-radius: unset;
+    border-left: 1.8px solid #e6e8ea;
+}
+
+.form-control {
+    border-color: white;
+}
+
+.bg-fondo {
+    background-color: #F4F4F4 !important;
+}
+
+.estilo-text {
+    opacity: 0.8;
+}
+
+.capaTransparente {
+    cursor: pointer;
+    top: unset;
+    bottom: 0;
+    width: 100%;
+    height: unset;
+    line-height: unset;
+    padding: 12px 0;
+    background-color: rgb(47, 75, 107);
+    opacity: 0.769;
+}
+
+.estiloh5 {
+    color: #fff !important;
+}
+
+.img-quienes-somos {
+    height: 674px;
+}
+
+.text-xl {
+    line-height: 1.2;
+}
+
+.colorbtn {
+    padding: 0;
+}
+
+.text-qr {
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    font-size: 38px;
+}
+
+.titlE1 {
+    font-size: 20px;
+}
+
+.ver-mas {
+    color: #03a9f4;
+    font-size: 18px;
+}
+
+.card-doctor .header img {
+    height: unset;
+}
+
+.text-align-left {
+    margin-left: 60%;
+}
+
+.hover-bg-align {
+    padding: 50% 0 !important;
+}
+
+.logo-align-footer {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.page-footer {
+    padding-top: 80px;
+}
+
+.line-divider {
+    border-top: 30px solid #E6E6E6;
+}
+
+.line-divider-white {
+    border-top: 30px solid #FFF;
+}
+
+h5,
+.h5 {
+    margin-left: unset;
+}
+
+p {
+    margin-left: unset;
+}
+
+.titulo {
+    font-size: 38px;
+}
+
+.descripcion {
+    font-size: 20px;
+}
+
+.carousel-caption {
+    right: 6%;
+    left: 6%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 6%;
+}
+
+.delicious-btn {
+    font-size: 20px !important;
+}
+
+.imgN {
+    margin-left: unset;
+    height: 300px;
+}
+
+.card-blog {
+    max-width: 300px;
+}
+
+.estN {
+    margin-right: unset;
+}
+
+.card-blog .post-title:hover,
+.card-blog .post-title a:hover {
+    color: black;
+}
+
+.breadcrumb-dark .breadcrumb-item a,
+.breadcrumb-dark .breadcrumb-item a:hover {
+    color: black;
+}
+
+.container-articulos {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.titulo-articulo {
+    font-size: 2.5rem;
+}
+
+.text-magia {
+    font-size: 38px;
+}
+
+.carrusel {
+    margin-left: unset;
+}
+
+.text-heder {
+    margin: unset;
+}
+
+.slider-card-content {
+    background: rgba(252, 252, 251, 0.8) none repeat scroll 0 0;
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.est-text1 {
+    font-size: 26px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 65px;
+    color: white;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 65px;
+    color: white;
+}
+
+@media (min-width: 268px) and (max-width: 1024px) {
+    .color {
+        width: 200px;
+    }
+
+    .respon {
+        left: 45%;
+    }
+
+    .respons {
+        left: 5%;
+    }
+
+    .respon1 {
+        left: 10%;
+    }
+
+    .text-align-left {
+        margin-left: unset;
+    }
+
+    .card-doctor .header {
+        height: unset;
+    }
+
+    .hover-bg .hover-text {
+        padding: 10% 0;
+    }
+
+    .hover-bg-align {
+        padding: 10% 0 !important;
+    }
+
+    .img-quienes-somos {
+        height: 250px;
+    }
+
+    .logo-align-footer {
+        margin-left: unset;
+        margin-top: unset;
+    }
+
+    .alineacion {
+        margin-right: unset;
+    }
+
+    .page-footer {
+        padding-top: 30px;
+    }
+
+    .carrusel {
+        margin-left: 55px;
+    }
+
+    .img-clas .hover-text {
+        padding: 4% 0;
+    }
+
+    .imgN {
+        width: 100%;
+    }
+
+    .container-articulos {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .titulo-articulo {
+        font-size: 2rem;
+    }
+    .topbar .social-mini-button a {
+        margin-left: -140px;
+        margin-top: unset;
+    }
+
+    .carousel-control-next-icon:after {
+        font-size: 48px;
+    }
+    
+    .carousel-control-prev-icon:after {
+        font-size: 48px;
+    }
+}
+
+@media (min-width: 1920px) {
+    * {
+        font-size: 22px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 16px;
+        font-size: 24px;
+    }
+
+    .color {
+        left: 80%;
+        width: 330px;
+    }
+
+    .imagendos {
+        left: 80%;
+        width: 330px;
+        height: 330px;
+    }
+
+    .imagenuno {
+        left: 60%;
+        height: 620px;
+    }
+
+    .estiloh5 {
+        font-size: 26px;
+    }
+
+    .estilo-text {
+        font-size: 32px !important;
+    }
+
+    .capaTransparente {
+        padding: 18px 0;
+    }
+
+    .titulo {
+        font-size: 52px;
+    }
+
+    .descripcion {
+        font-size: 28px;
+    }
+
+    .delicious-btn {
+        font-size: 28px !important;
+    }
+
+    .text-magia {
+        font-size: 52px;
+    }
+
+    .text-qr {
+        top: 60px;
+        font-size: 52px;
+    }
+
+    .titlE {
+        font-size: 52px;
+    }
+
+    .titlE1 {
+        font-size: 28px;
+    }
+
+    .ver-mas {
+        font-size: 26px;
+    }
+
+    .numero {
+        font-size: 24px;
+    }
+
+    .footer-menu a,
+    .footer-link {
+        font-size: 22px;
+    }
+
+    .efect1 {
+        font-size: 20px;
+    }
+
+    .colorbtn {
+        font-size: 32px;
+    }
+
+    .text-xl {
+        font-size: 28px !important;
+    }
+
+    .est-text1 {
+        font-size: 36px;
+    }
+}

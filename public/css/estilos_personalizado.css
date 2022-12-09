@@ -1,0 +1,593 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: sans-serif;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #0c1729;
+    color: #fff !important;
+
+}
+
+
+.header {
+    background-color: #3e516c;
+    height: 117px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    top: 45px;
+    position: absolute;
+    bottom: 10px;
+
+}
+
+.nav-link {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 20px 0 75px;
+}
+
+.logo span{
+    color: #343975;
+    position: absolute;
+    font-size: 18px;
+    top: 5px;
+    left: 154px;;
+}
+
+.logo img {
+    width: 60px;
+    margin-left: 14px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.nav-menu-item {
+    font-size: 15px;
+    margin: 0 3px;
+    line-height: 56px;
+    width: max-content;
+}
+.nav-menu-link{
+    padding: 8px 8px;
+}
+.nav-menu-link:hover,
+.nav-menu-link_active {
+    color: rgb(65, 65, 65);
+}
+.nav-menu-link i {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+
+    display: none;
+}
+
+/* .menu-buscar {
+    padding: 5px;
+    margin-left: 70px;
+    color: rgb(139, 139, 139);
+    width: 560px;
+    margin-top: 10px;
+    border-radius: 2px;
+    border: 1px solid rgba(20, 20, 20, 0.212);
+    font-size: 15px;
+    box-shadow: 2px 1px 0px rgba(99, 99, 99, 0.377);
+    outline: none;
+} */
+
+.buscador-logo {
+    display: flex;
+}
+
+
+#notificacion-contenido{
+    position: relative;
+}
+
+
+
+/* menu desplegable para las rutas */
+.desplegable-menu{
+    position: absolute;
+    background: red;
+}
+
+
+.nav-2{
+    /* background: #3483fa; */
+    margin-top: 10px;
+}
+
+        /* .lista-rutas{
+            list-style: none; 
+            text-align: left; 
+            padding: 0;
+        } */
+        /* .lista-rutas li { */
+            /* background: #ffdb13; */
+            /* cursor: pointer; */
+            /* margin-left: 5px;  */
+            /* padding: 3px 3px 3px 30px; */
+        /* } */
+        /* .lista-rutas li a {
+            color: rgb(255, 255, 255); 
+            text-decoration: none;
+        } */
+        /* .lista-rutas li a:hover  {
+            background: #ffdb13;
+            color: rgb(184, 184, 184); 
+        } */
+        /* .lista-rutas-2 {
+            list-style: none; 
+            text-align: left; 
+            padding: 0;
+        }
+        .lista-rutas-2 li a{
+            color: rgb(255, 255, 255); 
+            text-decoration: none;
+        }
+        .lista-rutas-2 li {
+            cursor: pointer;
+            padding: 8px 8px 8px 30px;
+        }
+        .contenido-menu{
+            position: relative;
+        } */
+       
+        /* .contenido-menu div::after{
+            position: absolute;
+            content: '';
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 8px solid #333333;
+            bottom: 100%;
+            left: 40%;
+
+        } */
+        /* .contenido-menu:hover .desplegable-menu{
+            display: block;
+            transition: .1s;
+        } */
+        /* .desplegable-menu {
+            position: absolute; 
+            background: #333333;  
+            padding: 0;
+            display: flex; 
+            width: 300px;
+            border-radius: 5px; 
+            color: rgb(240, 240, 240); 
+            font-size: 14px; 
+
+            display: none;
+            left:-100px;
+            top: 40px;
+        } */
+        /* .lista-rutas-2 li:hover {
+            background: #3483fa;
+        } */
+        .separador-menu {
+            margin: 1px;
+            padding: 1px;
+            border: 1px;
+            color: #fff;
+            background: rgb(226, 226, 226);
+        }
+        
+        .region-perfil{
+            font-size: 15px;
+            margin-left:3%; 
+            /* line-height: 60px; */
+            /* text-transform: uppercase; */
+            width: max-content;
+        }
+        .lista-region{
+            font-size: 14px;
+            color: rgb(65, 170, 255);
+            border-bottom: 1px solid #000;
+
+        }
+        .contenido-menu2{
+            position: relative;
+        }
+        .desplegable-menu-region{
+            position: absolute; 
+            background: red;
+            width: 250px;
+            background: #333333; 
+            z-index: 100;
+            border-radius: 5px; 
+            font-size: 13px;
+            overflow: hidden;
+            display: none;
+            left: -17px;
+            top:46px;
+            line-height: 33px;
+            
+        }
+  
+        
+        /* .contenido-menu2 div::after{
+            position: absolute;
+            content: '';
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 0px solid transparent;
+            border-bottom: 10px solid #333333;
+            bottom: 100%;
+            left: 12%;
+
+        } */
+
+
+        .contenido-menu2:hover .desplegable-menu-region{
+            display: block;
+            transition: .1s;
+        }
+       
+
+
+        /* formulario de registro de prospecto------------------------------------------------------------ */
+
+        .mt-20 {
+            margin-top: 80px;
+        }
+        .mb-40{
+            margin-bottom: 40px;
+        }
+        .ml-20{
+            margin-left: 20px;
+        }
+        .mr-20{
+            margin-top: 20px;
+        }
+        .panel-contenido {
+            padding: 50px;
+        }
+        .formulario-contenido{
+            width: 95%;
+            background: rgb(253, 253, 253);
+            margin: auto;
+            padding: 45px;
+            /* border-radius: 5px; */
+        }
+        .area-fotter{
+            width: 96%;
+            margin: auto;
+            border-radius: 5px;
+        }
+        .formulario-grupo{
+            display: flex;
+        }
+        .formulario-cajas-50 {
+            padding: 5px;
+            width: 50%;
+        }
+        .formulario-cajas-100 {
+            padding: 5px;
+            width: 100%;
+        }
+        .formulario-cajas-33 {
+            padding: 5px;
+            width: 33.33%;
+        }
+        .titulo-caja{
+            font-size: 15px;
+            padding: 5px 0px 5px 0px;
+            color: rgb(141, 141, 141);
+        }
+        .titulo-caja-2 {
+            font-size: 15px;
+            padding: 0px 0px 0px 0px;
+            color: rgb(141, 141, 141);
+        }
+        .caja-texto{
+            font-size: 20px;
+            padding: 15px 0px 15px 0px;
+            background-color: #fff;
+            border: 0;
+            outline: none;
+            width: 100%;
+            height: 40px;
+            color: rgb(70, 70, 70);
+    
+        }
+        .separador{
+            widows: 100%;
+            border-bottom: 2px solid rgb(184, 184, 184);
+            position: relative;
+            padding: 10px;
+            margin-top: 15px;
+            margin-bottom: 25px;
+            
+        }
+        .separador span{
+            position: absolute;
+            text-align: center;
+            left: 41%;
+            margin: 0;
+            background: rgb(253, 253, 253);
+            padding-left: 10px ;
+            padding-right: 10px ;
+            color: rgb(148, 148, 148);
+            
+        }
+
+        .form{
+            width: 100%;
+            height: 50px;
+            max-width: 400px;
+            position: relative;
+            overflow: hidden;
+        }
+        .form input{
+            width: 100%;
+            height: 100%;
+            background: none;
+            color: #fff;
+            padding-top: 20px;
+            border: none;
+            outline: 0px;
+
+        }
+        .form .lbl_nombre{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            border-bottom: 1px solid #c7c7c7;
+
+        }
+        .form .lbl_nombre::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            width: 100%;
+            height: 100%;
+            border-bottom: 3px solid #2ecece;
+            transform: translateX(-100%);
+            transition: all 0.3s ease;
+            background: red;
+        }
+        .text-nombre{
+            position: absolute;
+            bottom: 5px;
+            left: 0;
+            transition: all 0.3s ease;
+            color: #fff;
+        }
+        /* .form input:focus + .lbl_nombre .text-nombre
+        {
+            transform: translateY(-150%);
+            font-size: 14px;
+            color: #2ecece;
+        } */
+        .form input:hover + .lbl_nombre::after
+        {
+            transform: translateX(0%);
+            
+        }
+        .estilo-cajas {
+            height: 80px;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        .estilo-cajas-2 {
+            height: 80px;
+            position: relative;
+            overflow: hidden;
+            
+        }
+        .estilo-cajas-2 input{
+            width: 98%;
+            background: none;
+            color: rgb(70, 70, 70);
+            padding: 0px 0px 0px 0px;
+            border: none;
+            outline: 0px;
+
+        }
+        .estilo-cajas input{
+            width: 98%;
+            background: none;
+            color: rgb(70, 70, 70);
+            padding: 7px 0px 7px 0px;
+            border: none;
+            outline: 0px;
+
+        }
+        .estilo-cajas .lbl_nombre{
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            border-bottom: 1px solid #c7c7c7;
+
+        }
+        .estilo-cajas-2 .lbl_nombre{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            border-bottom: 1px solid #c7c7c7;
+
+        }
+        .estilo-cajas .lbl_nombre::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 1px;
+            width: 100%;
+            height: 100%;
+            border-bottom: 3px solid #7c7c7c;
+            transform: translateX(-110%);
+            transition: all 0.3s ease;
+        }
+        .estilo-cajas-2 .lbl_nombre::after{
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            width: 100%;
+            height: 100%;
+            border-bottom: 3px solid #7c7c7c;
+            transform: translateX(-110%);
+            transition: all 0.3s ease;
+        }
+        .text-nombre{
+            position: absolute;
+            bottom: -19px;
+            left: 10px;
+            transition: all 0.3s ease;
+            color: rgb(73, 73, 73);
+            font-size: 13px;
+            transform: translateY(110%);
+        }
+        .estilo-cajas input:focus + .lbl_nombre .text-nombre
+        {
+            transform: translateY(5%);
+            font-size: 14px;
+            color: #727272;
+        }
+        .estilo-cajas-2 input:focus + .lbl_nombre .text-nombre
+        {
+            transform: translateY(5%);
+            font-size: 14px;
+            color: #727272;
+        }
+        .estilo-cajas-2 input:hover + .lbl_nombre::after
+        {
+            transform: translateX(0%);
+            
+        }
+        .estilo-cajas input:hover + .lbl_nombre::after
+        {
+            transform: translateX(0%);
+            
+        }
+        .buton-continuar{
+            padding: 15px;
+            background: #3483fa;
+            margin: 5px;
+            border: 0;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #fff;
+
+        }
+        .buton-continuar:hover{
+            background: #2968c8;
+
+        }
+
+
+        
+
+
+
+
+
+@media (max-width: 768px){
+    body {
+        
+        padding-top: 70px ;
+    
+    }
+    
+    .header {
+       
+        height: 60px;
+       
+    }
+    
+    
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        margin: 0;
+        background-color: teal;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+
+        left: 100%;
+        transition: left 0.3s;
+
+    }
+    
+    .nav-menu-item {
+        line-height: 70px;
+        
+    }
+    .nav-menu-link{
+        padding: 8px 12px;
+    }
+    .nav-menu-link:hover,
+    .nav-menu-link_active {
+        background: none;
+        color: tomato;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-menu_visible {
+        left: 0;
+    }
+
+    .nav-toggle:focus:not(:focus-visible){
+        outline: none;
+    }
+
+
+}

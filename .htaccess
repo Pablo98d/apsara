@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^admindecreditos\.com\.mx$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.admindecreditos\.com\.mx$
+RewriteRule ^/?$ "http\:\/\/admindecreditos\.com\.mx\/public\/" [R=301,L]
+

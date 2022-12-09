@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+.acordeon input{
+    display: none;
+}
+.acordeon__titulo{
+    display: block;
+    padding: 10px;
+    background: #3728A2;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0;
+}
+.acordeon__titulo:hover{
+    background: #423a81;
+}
+.acordeon__titulo span{
+    margin-right: 10px;
+    float: right;
+    font-size: 18px;
+    /* border-radius: 50%; */
+}
+
+.acordeon__contenido{
+    height: 0;
+    overflow: hidden;
+    margin: 1px;
+    /* border: solid 1px #000; */
+    background: #fff;
+    /* padding: 15px; */
+    transition: all 1s;
+    
+}
+.acordeon input:checked ~ .acordeon__contenido{
+    height: auto;
+    margin: 1px;
+}
+.contenido_acor{
+    background: #fff;
+    padding: 15px;
+    transition: all 1s;
+}
+#hr{
+    margin: 0;
+    border: solid 1px black;
+    padding: 0;
+} 
+#parrafo{
+    padding: 2px;
+    margin: 3px;
+}
